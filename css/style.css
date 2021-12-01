@@ -92,7 +92,6 @@
      font-size: 30px;
  }
  .projects{
-    height:800px;
     background-color: lightgray;
     text-align: center;
 }
@@ -126,15 +125,16 @@
     border: 2px solid whitesmoke;
     border-radius: 8px;
     flex-direction: column;
-    transition: all 0,2s ease;
+    transition: all 1.2s ease;
     margin-top: 80px;
 }
+
 
 .projects .project-img img{
     /* border:2px solid lightgray; */
     border-radius: 6px;
-    height:100px;
-    width:200px;
+    height:150px;
+    width:220px;
 }
 .projects .links a i {
     min-width: 60px;
@@ -152,8 +152,8 @@
     position: fixed;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 22px;
-    padding-top: 8px;
     transition:all 0.5s ease;
 }
  .nav-bar.active{  
@@ -162,6 +162,7 @@
 }
 .nav-bar ul {
     display: flex;
+  
     list-style: none;
 }
 .nav-bar ul a{
@@ -306,11 +307,12 @@ margin-top: 320px;
     font-size: 50px;
 }
 .projects{
-    height:800px;
+    /* height:800px; */
     background-color: lightgray;
     text-align: center;
    
 }
+
 .projects h2{
     color:gray;
     display: inline-block;
@@ -332,10 +334,14 @@ margin-top: 320px;
     border: 2px solid whitesmoke;
     border-radius: 8px;
     flex-direction: column;
-    transition: all 0,2s ease;
-    margin-top: 100px;
+    transition: 1.2s ease;
+    margin-bottom: 100px;
+  
 }
+.projects .project:hover{
+    transform: translateY(-5%);
 
+}
 .project-img img{
     /* border:2px solid lightgray; */
     border-radius: 6px;
