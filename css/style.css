@@ -11,7 +11,7 @@
         font-size: 14px;
     }
     .home{
-        background-image:url('../images/home-image-mobile.jpg'); 
+        background-image:url('../images/home-image-mobile.jpg') !important; 
     }
     .home .title{
         margin-top: 200px;
